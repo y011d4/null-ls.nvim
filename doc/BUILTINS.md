@@ -3683,6 +3683,23 @@ local sources = { null_ls.builtins.formatting.purs_tidy }
 
 - For installation, use npm: npm install -g purs-tidy
 
+### [pysen](https://github.com/pfnet/pysen)
+
+Python linting made easy.
+
+#### Usage
+
+```lua
+local sources = { null_ls.builtins.formatting.pysen }
+```
+
+#### Defaults
+
+- Filetypes: `{ "python" }`
+- Method: `formatting`
+- Command: `pysen`
+- Args: `{ "run_files", "format", "$FILENAME" }`
+
 ### [qmlformat](https://doc-snapshots.qt.io/qt6-dev/qtquick-tools-and-utilities.html#qmlformat)
 
 qmlformat is a tool that automatically formats QML files according to the QML Coding Conventions.

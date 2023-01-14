@@ -262,6 +262,9 @@ return {
   purs_tidy = {
     filetypes = { "purescript" }
   },
+  pysen = {
+    filetypes = { "python" }
+  },
   qmlformat = {
     filetypes = { "qml" }
   },
